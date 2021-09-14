@@ -38,6 +38,7 @@ Virtual Machine / Dual Boot / Emulator: TBD
 Chess
 * [Long Algebraic Chess Notation](https://en.wikipedia.org/wiki/Algebraic_notation_(chess)#Long_algebraic_notation)
 * [UCI Protocol](https://www.shredderchess.com/download/div/uci.zip)
+
 AR
 * [Configuring Unity for AR Development](https://learn.unity.com/tutorial/configuring-unity-for-ar-development#)
 * [AR Youtube Tutorial 1](https://www.youtube.com/watch?v=cCOLdX1JMo4)
