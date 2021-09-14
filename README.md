@@ -5,11 +5,11 @@ No pieces, no problem! Play life-size, three-dimensional chess at the UTD chess 
 
 # MVP
 We will update this with our new goals after Design Day.
-[ ] Open camera, detect UTD Chess Plaza
-[ ] Display AR chess pieces in correct positions
-[ ] Tap select chess pieces
-[ ] Move pieces to legal positions
-[ ] Stockfish opponent plays moves
+ * [ ] Open camera, detect UTD Chess Plaza
+ * [ ] Display AR chess pieces in correct positions
+ * [ ] Tap select chess pieces
+ * [ ] Move pieces to legal positions
+ * [ ] Stockfish opponent plays moves
 
 # Further Ideas - to be discussed during Design Day
 * Two-player chess from different devices
