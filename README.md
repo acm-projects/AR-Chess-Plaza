@@ -1,7 +1,7 @@
 # AR-Chess-Plaza
 No pieces, no problem! Play life-size, three-dimensional chess at the UTD chess plaza any time with this fun AR mobile app!
 
-##MVP
+# MVP
 We will update this with our new goals after Design Day.
 [ ] Open camera, detect UTD Chess Plaza
 [ ] Display AR chess pieces in correct positions
@@ -9,7 +9,7 @@ We will update this with our new goals after Design Day.
 [ ] Move pieces to legal positions
 [ ] Stockfish opponent plays moves
 
-##Further Ideas - to be discussed during Design Day
+# Further Ideas - to be discussed during Design Day
 * Two-player chess from different devices
 * Chess960 Support
 * Undo last move
@@ -19,24 +19,24 @@ We will update this with our new goals after Design Day.
 * Import games from chess.com / lichess.org
 * Save / resume game
 
-##Software to Install
-IDE: Android Studio OR Xcode
-Language: Java/Kotlin OR Swift
-Game Engine: Unity (Student Plan)
-Chess Engine: Stockfish (can be replaced with another UCI engine)
-AR Engine: Vuforia
+# Software to Install
+IDE: [Android Studio](https://developer.android.com/studio) OR [Xcode](https://developer.apple.com/xcode/)
+Language: [Java](https://java.com/en/download/help/download_options.html)/Kotlin OR [Swift](https://swift.org/getting-started/#installing-swift)
+Game Engine: [Unity (Student Plan)](https://unity.com/products/unity-student)
+Chess Engine: [Stockfish](https://stockfishchess.org/download/) (can be replaced with another UCI engine)
+AR Engine: [Vuforia](https://developer.vuforia.com/downloads/sdk)
 Virtual Machine / Dual Boot / Emulator: TBD
 
-##References
+# References
 Chess
-* Long Algebraic Chess Notation
-* UCI Protocol
+* [Long Algebraic Chess Notation](https://en.wikipedia.org/wiki/Algebraic_notation_(chess)#Long_algebraic_notation)
+* [UCI Protocol](https://www.shredderchess.com/download/div/uci.zip)
 AR
 * Configuring Unity for AR Development
-* AR Youtube Tutorial 1
-* AR Youtube Tutorial 2
+* [AR Youtube Tutorial 1](https://www.youtube.com/watch?v=cCOLdX1JMo4)
+* [AR Youtube Tutorial 2](https://www.youtube.com/watch?v=uXNjNcqW4kY)
 
-##Week 1 - Installation and Setup
+# Week 1 - Installation and Setup
 [ ] Clone repository
 [ ] Unity
     [ ] Apply for student plan
@@ -48,5 +48,5 @@ AR
 [ ] Target images
 [ ] Begin mockup
 
-##Week 2
+# Week 2
 
