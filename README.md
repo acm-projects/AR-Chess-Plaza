@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/34562020/133207872-9201a1ee-c494-4ae8-90de-ed9a4081ac73.png)
+
 # AR-Chess-Plaza
 No pieces, no problem! Play life-size, three-dimensional chess at the UTD chess plaza any time with this fun AR mobile app!
 
@@ -32,13 +34,13 @@ Chess
 * [Long Algebraic Chess Notation](https://en.wikipedia.org/wiki/Algebraic_notation_(chess)#Long_algebraic_notation)
 * [UCI Protocol](https://www.shredderchess.com/download/div/uci.zip)
 AR
-* Configuring Unity for AR Development
+* [Configuring Unity for AR Development](https://learn.unity.com/tutorial/configuring-unity-for-ar-development#)
 * [AR Youtube Tutorial 1](https://www.youtube.com/watch?v=cCOLdX1JMo4)
 * [AR Youtube Tutorial 2](https://www.youtube.com/watch?v=uXNjNcqW4kY)
 
 # Week 1 - Installation and Setup
-[ ] Clone repository
-[ ] Unity
+ [ ] Clone repository
+ [ ] Unity
     [ ] Apply for student plan
     [ ] Download & install Unity
     [ ] Activate pro license
