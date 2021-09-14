@@ -39,16 +39,16 @@ AR
 * [AR Youtube Tutorial 2](https://www.youtube.com/watch?v=uXNjNcqW4kY)
 
 # Week 1 - Installation and Setup
- [ ] Clone repository
- [ ] Unity
-    [ ] Apply for student plan
-    [ ] Download & install Unity
-    [ ] Activate pro license
-[ ] IDE
-[ ] Java / Swift
-[ ] JDKs
-[ ] Target images
-[ ] Begin mockup
+ * [ ] Clone repository
+ * [ ] Unity
+     * [ ] Apply for student plan
+     * [ ] Download & install Unity
+     * [ ] Activate pro license
+ * [ ] IDE
+ * [ ] Java / Swift
+ * [ ] JDKs
+ * [ ] Target images
+ * [ ] Begin mockup
 
 # Week 2
 
