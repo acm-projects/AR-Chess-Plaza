@@ -32,6 +32,8 @@ Chess Engine: [Stockfish](https://stockfishchess.org/download/) (can be replaced
 
 Virtual Machine / Dual Boot / Emulator: TBD
 
+Mobile Testing: [Unity Remote 5](https://play.google.com/store/apps/details?id=com.unity3d.mobileremote&hl=en_US&gl=US)
+
 # References
 Chess
 * [Long Algebraic Chess Notation](https://en.wikipedia.org/wiki/Algebraic_notation_(chess)#Long_algebraic_notation)
@@ -42,15 +44,16 @@ AR
 * [AR Youtube Tutorial 1](https://www.youtube.com/watch?v=cCOLdX1JMo4)
 * [AR Youtube Tutorial 2](https://www.youtube.com/watch?v=uXNjNcqW4kY)
 
+Unity
+* [Unity Learn](https://learn.unity.com/) - the all-in-one best way to learn Unity
+
 # Week 1 - Installation and Setup
- * [ ] Clone repository
+ * [ ] Clone repository & setup git 2-factor auth
  * [ ] Unity
      * [ ] Apply for student plan
      * [ ] Download & install Unity
      * [ ] Activate pro license
- * [ ] IDE
- * [ ] Java / Swift
- * [ ] JDKs
+ * [ ] IDE configuration to preferences
  * [ ] Target images
  * [ ] Begin mockup
 
