@@ -22,15 +22,13 @@ We will update this with our new goals after Design Day.
 * Save / resume game
 
 # Software to Install
-IDE: [Android Studio](https://developer.android.com/studio) OR [Xcode](https://developer.apple.com/xcode/)
 
-Language: [Java](https://java.com/en/download/help/download_options.html)/Kotlin OR [Swift](https://swift.org/getting-started/#installing-swift)
-
-Game Engine: [Unity (Student Plan)](https://unity.com/products/unity-student)
+Game Engine: [Unity Student Plan](https://unity.com/es/products/unity-student)
+* Select "Vuforia" upon download
+* Select appropriate mobile build supports upon download
+* Under "Dev Tools", ensure that an IDE is selected (either Visual Studio or Xamarin)
 
 Chess Engine: [Stockfish](https://stockfishchess.org/download/) (can be replaced with another UCI engine)
-
-AR Engine: [Vuforia](https://developer.vuforia.com/downloads/sdk)
 
 Virtual Machine / Dual Boot / Emulator: TBD
 
