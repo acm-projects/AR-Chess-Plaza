@@ -1,5 +1,7 @@
 ![image](https://user-images.githubusercontent.com/34562020/133207872-9201a1ee-c494-4ae8-90de-ed9a4081ac73.png)
 
+Ethan: My favorite food is chicken. 
+
 # AR-Chess-Plaza
 No pieces, no problem! Play life-size, three-dimensional chess at the UTD chess plaza any time with this fun AR mobile app!
 
