@@ -3,7 +3,7 @@
 # =============== #
 Temp/
 Library/
-Log/**
+Logs/**
 com.ptc.vuforia.engine.engine-10.2.5.tgz
 *.tgz
 *.log
