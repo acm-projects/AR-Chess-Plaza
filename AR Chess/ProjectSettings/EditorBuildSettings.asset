@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Home Screen.unity
+    guid: 2d213f97999d94044a3f663595afa6a5
+  - enabled: 1
+    path: Assets/Scenes/Single Player Screen.unity
+    guid: e68d10ee37ce2b846a339599d7df77b0
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
