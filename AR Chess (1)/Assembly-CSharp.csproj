@@ -73,6 +73,7 @@
     <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\Scripts\ChessPieces\Queen.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Scripts\ChessPieces\Pawn.cs" />
     <Compile Include="Assets\Scripts\ChessBoard.cs" />
@@ -85,7 +86,9 @@
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\Scripts\ChessPieces\Rook.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
+    <Compile Include="Assets\Scripts\SinglePlayerScript.cs" />
     <Compile Include="Assets\Scripts\SafeAreaDetection.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
@@ -94,13 +97,15 @@
     <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\Scripts\SafeAreaPanel.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\Scripts\SettingsManager.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+    <Compile Include="Assets\Scripts\GameplayManager.cs" />
     <Compile Include="Assets\Scripts\ChessPieces\PawnAnimation.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Scripts\SinglePlayerScript.cs" />
+    <Compile Include="Assets\Scripts\OnlineManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI\Fonts\comfortaa\OFL.txt" />

@@ -906,6 +906,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer Textfield
       objectReference: {fileID: 0}
+    - target: {fileID: 4569326382812230990, guid: 1c3b63f47208949458db9704dbc964df,
+        type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569326382812230990, guid: 1c3b63f47208949458db9704dbc964df,
+        type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 627450152}
+    - target: {fileID: 4569326382812230990, guid: 1c3b63f47208949458db9704dbc964df,
+        type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ComputerTextFieldChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569326382812230990, guid: 1c3b63f47208949458db9704dbc964df,
+        type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SinglePlayerScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569326382812230990, guid: 1c3b63f47208949458db9704dbc964df,
+        type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4569326383148578728, guid: 1c3b63f47208949458db9704dbc964df,
         type: 3}
       propertyPath: m_Text
@@ -946,6 +971,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Mode Container
       objectReference: {fileID: 0}
+    - target: {fileID: 3355223613995409035, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_Name
+      value: Game Mode Dropdown
+      objectReference: {fileID: 0}
     - target: {fileID: 3644686570953797527, guid: 43fdc7919b39749aaaa31068a1cc320d,
         type: 3}
       propertyPath: m_Text
@@ -980,6 +1010,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 627450152}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GamemodeChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SinglePlayerScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6269633495431420410, guid: 43fdc7919b39749aaaa31068a1cc320d,
         type: 3}
@@ -1203,6 +1268,12 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!224 &293227732 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6269633495431420410, guid: 43fdc7919b39749aaaa31068a1cc320d,
+    type: 3}
+  m_PrefabInstance: {fileID: 238076944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &413360049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,6 +1602,11 @@ MonoBehaviour:
   blackColorChoice: {fileID: 21300000, guid: e225f01303305be439bfe35f42691290, type: 3}
   topColorChoice: {fileID: 1131687831}
   bottomColorChoice: {fileID: 990552722}
+  playerNameTextField: {fileID: 1179735298}
+  computerNameTextField: {fileID: 232555956}
+  difficultyChoice: {fileID: 1066670956}
+  gamemodeChoice: {fileID: 293227732}
+  themeChoice: {fileID: 1360276859}
 --- !u!1 &825627782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,6 +1860,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!224 &1066670956 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6269633495431420410, guid: 43fdc7919b39749aaaa31068a1cc320d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7472486299859237346}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1131687830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2124,6 +2206,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1360276859 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6269633495431420410, guid: 43fdc7919b39749aaaa31068a1cc320d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1452214292}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1452214292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2150,6 +2238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Theme Container
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355223613995409035, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_Name
+      value: Theme Dropdown
       objectReference: {fileID: 0}
     - target: {fileID: 3644686570953797527, guid: 43fdc7919b39749aaaa31068a1cc320d,
         type: 3}
@@ -2185,6 +2278,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 627450152}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ThemeChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SinglePlayerScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6269633495431420410, guid: 43fdc7919b39749aaaa31068a1cc320d,
         type: 3}
@@ -3087,7 +3215,7 @@ PrefabInstance:
     - target: {fileID: 4569326382812230990, guid: 1c3b63f47208949458db9704dbc964df,
         type: 3}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UsernameTextFieldChanged
+      value: PlayerNameTextFieldChanged
       objectReference: {fileID: 0}
     - target: {fileID: 4569326382812230990, guid: 1c3b63f47208949458db9704dbc964df,
         type: 3}
@@ -3098,6 +3226,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569326383148578728, guid: 1c3b63f47208949458db9704dbc964df,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c3b63f47208949458db9704dbc964df, type: 3}
@@ -3133,6 +3266,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Difficulty Container
       objectReference: {fileID: 0}
+    - target: {fileID: 3355223613995409035, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_Name
+      value: Difficulty Dropdown
+      objectReference: {fileID: 0}
     - target: {fileID: 4066623162847147344, guid: 43fdc7919b39749aaaa31068a1cc320d,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -3162,6 +3300,56 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Easy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Medium
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Hard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 627450152}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DifficultyChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SinglePlayerScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287494692850780847, guid: 43fdc7919b39749aaaa31068a1cc320d,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6269633495431420410, guid: 43fdc7919b39749aaaa31068a1cc320d,
         type: 3}
